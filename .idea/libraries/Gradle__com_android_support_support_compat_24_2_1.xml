@@ -1,15 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:support-compat-24.2.1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/9749d20666211d9ad439495db4448783/jars/libs/internal_impl-24.2.1.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/9749d20666211d9ad439495db4448783/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/9749d20666211d9ad439495db4448783/res" />
+      <root url="jar://D:/android test/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/6693dbd244e42719d033776f440307b2/jars/libs/internal_impl-24.2.1.jar!/" />
+      <root url="file://D:/android test/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/6693dbd244e42719d033776f440307b2/res" />
+      <root url="jar://D:/android test/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/6693dbd244e42719d033776f440307b2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/support-compat/24.2.1/support-compat-24.2.1-javadoc.jar!/" />
+      <root url="jar://D:/android test/extras/android/m2repository/com/android/support/support-compat/24.2.1/support-compat-24.2.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/support-compat/24.2.1/support-compat-24.2.1-sources.jar!/" />
+      <root url="jar://D:/android test/extras/android/m2repository/com/android/support/support-compat/24.2.1/support-compat-24.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
