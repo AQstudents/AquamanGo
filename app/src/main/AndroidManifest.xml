@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.coolweather.android">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -11,19 +12,28 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".WeatherActivity" />
 
         <service
             android:name=".service.AutoUpdateService"
             android:enabled="true"
             android:exported="true" />
+
+        <activity android:name=".loginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".shipinActivity" />
+        <activity
+
+            android:name=".zhuActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".phoneActivity"></activity>
     </application>
 
 </manifest>

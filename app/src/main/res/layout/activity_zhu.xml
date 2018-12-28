@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/beijing"
+    tools:context=".zhuActivity">
+
+<android.support.percent.PercentFrameLayout
+    android:layout_width="400dp"
+    android:layout_height="500dp">
+    <Button
+    android:background="@drawable/yun"
+    android:id="@+id/tianqi"
+    android:layout_gravity="left|top"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+    app:layout_widthPercent="30%"
+    app:layout_heightPercent="20%"
+    />
+
+    <Button
+        android:background="@drawable/dianhua"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/phone"
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="20%"
+        />
+    <Button
+        android:layout_marginLeft="30dp"
+
+        android:background="@drawable/xinwen"
+        android:layout_gravity="left|bottom"
+        android:id="@+id/news"
+        
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="20%"/>
+    <Button
+        android:background="@drawable/shipin"
+        android:layout_gravity="right|bottom"
+        android:id="@+id/movie"
+        android:layout_marginRight="50dp"
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="20%"/>
+
+</android.support.percent.PercentFrameLayout>
+
+</LinearLayout>
