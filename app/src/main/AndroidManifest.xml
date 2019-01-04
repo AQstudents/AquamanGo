@@ -29,11 +29,11 @@
         </activity>
         <activity android:name=".shipinActivity" />
         <activity
-
             android:name=".zhuActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme" />
-        <activity android:name=".phoneActivity"></activity>
+        <activity android:name=".phoneActivity" />
+        <activity android:name=".zhuceActivity"></activity>
     </application>
 
 </manifest>
